@@ -1,0 +1,65 @@
+html, body, h1{
+    margin: 0;
+}
+body{
+    background-color: rgba(228, 213, 211, 0.4) ;
+    padding-bottom: 100px;
+}
+header{
+    font-size: 24px;
+    text-align: center;
+    background-color:rgba(228, 213, 211, 0.6) ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    font-size: 18px;
+
+}
+ul{
+ list-style-type:none ;
+}
+
+.date{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+    margin-top: 50px;
+}
+.commentaire{
+    display: flex;
+    justify-content: space-evenly;
+}
+.article{
+    font-size: 24px;
+}
+.field{
+    text-align: center;
+}
+.submit{
+    text-align: center;
+    margin-left: 390px;
+    margin-top: 10px;
+}
+input[type=submit]{
+    padding: 10px;
+}
+form{
+    margin-top: 50px;
+}
+.titre{
+    margin-top: 20px;
+    font-size: 24px;
+    width: 18%;
+    padding: 10px;
+}
+.contenu{
+    font-size: 24px;
+}
